@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="shortcut icon" type="x-icon" href="./img/203-2035339_register-user-register-online-icon-png.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Registration Form</h1>
+        <form action="" id="form" class="form">
+            <div class="input">
+                <label for="Username">Username</label>
+                <input input="text" name="Username" id="Username" placeholder="enter the Username" autocomplete="off" required/>
+                
+            </div>
+            <div class="input">
+                <label for="Email">E-mail</label>
+                <input input="text" name="Email" id="Email" placeholder="enter the Email" autocomplete="off" required />
+            
+            </div>
+            <div class="input">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter Password" required>
+            </div>
+            <div class="input">
+                <label for="password">Confirm Password</label>
+                <input type="password"  id="Confirmpassword" placeholder="Enter password Again" required>
+            </div>
+            
+          <button onclick="validateForm()">Submit</button>
+
+        </form>
+    </div>
+    <script src="./script.js"></script>
+    
+</body>
+</html>
